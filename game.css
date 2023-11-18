@@ -1,0 +1,79 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(assets/bg.png);
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin:10px auto;
+}
+.game{
+    display: flex;
+    /* border: 2px solid yellow; */
+    margin:0px 100px;
+    height: 440px;
+    color: white;
+    text-align: center;
+}
+
+.game h2{
+    font-size: 40px;
+    margin: 5px auto;
+}
+.hand{
+    width: 40%;
+    border: 2px solid rgb(255, 230, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hand img{
+    width: 430px;
+}
+.vs{
+    width: 20%;
+}
+.vs img{
+    width: 95px;
+}
+.comp{
+    width: 40%;
+    border: 2px solid rgb(255, 230, 0);
+}
+.comp img{
+    margin-top: 20px;
+    
+    width: 430px;
+}
+.button{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.button img{
+    width: 80px;
+}
+.gameover{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+}
+.gameover h2{
+    margin: 0px;
+}
+.gameover button{
+    background-color: #ffc434;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
